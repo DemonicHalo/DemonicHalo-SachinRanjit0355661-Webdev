@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Health Help</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- header -->
+    <div class="header">
+        <div class="main-nav">
+            <div class="logo">
+               <a href="index.html"> <img src="assets/img/logo1.png" alt="Mental Health Help"></a>
+            </div>
+            <nav class="nav-links" id="navLinks">
+                <a href="MentalHealth.html">Mental Health</a>
+                <a href="Health&Wellness.html">Health & Wellness</a>
+                <a href="Children&Family.html">Children & Family</a>
+                <a href="Relationships.html">Relationships</a>
+                <a href="AgingWell.html">Aging Well</a>
+                <a href="Meditation.html">Meditation</a>
+                <a href="Quiz.html">Quiz</a>
+                <a href="HelpMe.html">Help Me!</a>
+            </nav>
+            <div class="search-container">
+                <input type="text" placeholder="Search..." class="search-bar" id="searchBar">
+                
+            </div>
+            <div class="hamburger" id="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- dis-section -->
+    <div class="container">
+        <div class="dis-section">
+            <div class="discenter">
+                <div class="dis-info">
+                    <h1>Your trusted guide to mental health & wellness</h1>
+                    <p>Select Start improving your mental health and well-being today. Mental Health Help shows you how.</p>
+                    <a href="AboutUs.html">  <button class="c-button x-button" >Learn About Us <i class="fa-solid fa-chevron-right"></i></button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- latest-prods -->
+    <div class="latest-prods">
+        <div class="prod">
+            <img src="assets/img/mission1.webp" width="100%" alt="">
+            <h2>Guidance you can trust</h2>
+            <p>Find trustworthy information about mental health and wellness that you can use to make better decisions.</p>
+            <a href="HelpMe.html"><button class="c-button">Read more <i class="fa-solid fa-chevron-right"></i></button></a>
+        </div>
+        <div class="prod">
+            <img src="assets/img/mission2.webp" width="100%" alt="">
+            <h2>Skills for life success</h2>
+            <p>Build skills to manage your emotions, strengthen your relationships, and cope with difficult situations.</p>
+        </div>
+        <div class="prod">
+            <img src="assets/img/mision3.webp" width="100%" alt="">
+            <h2>Strategies to feel better</h2>
+            <p>Learn how to improve your mental health and well-being—and help your friends and family do the same.</p>
+            <a href="Quiz.html"><button class="c-button">Take Quiz <i class="fa-solid fa-chevron-right"></i></button>
+          </a>
+
+        </div>
+        <div class="prod">
+            <img src="assets/img/misson4.png" width="100%" alt="">
+            <h2>Support you can rely on</h2>
+            <p>As a free online resource, we’re here for you, day or night, whenever you need guidance, encouragement, or support.</p>
+            
+        </div>
+    </div>
+
+    <!-- xbox -->
+    <div class="xbox">
+        <div class="xbox-info">
+          <h1 class="meditate-title">Meditation</h1>
+         <h3> <ul>
+              <li class="bold-text">Cultivate your ability to be mindful and tuned in to what you’re feeling.</li>
+              <li class="bold-text">Feeling anxious about the future? This mindfulness meditation can help.</li>
+              <li class="bold-text">Harness the power of your breath to ground yourself and regain inner calm.</li>
+          </ul></h3>
+            <button class="c-button" onclick="window.location.href='https://www.youtube.com/watch?v=DzCKFDB3pvk'">Meditate Now <i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+    </div>
+
+   <!-- Social Media Links -->
+   <div class="social-media">
+    <h3>Follow Us</h3>
+    <ul>
+      <li>
+        <a href="https://facebook.com/" target="_blank">
+          <img src="./assets/img/facebook.png" alt="Facebook" /> Facebook
+        </a>
+      </li>
+      <li>
+        <a href="https://twitter.com/" target="_blank">
+          <img src="./assets/img/x.png" alt="Twitter" /> Twitter
+        </a>
+      </li>
+      <li>
+        <a href="https://instagram.com/" target="_blank">
+          <img src="./assets/img/instagram.png" alt="Instagram" /> Instagram
+        </a>
+      </li>
+    </ul>
+  </div>
+
+</section>
+
+  <footer>
+      <p>© 2024 Mental Health Help. All rights reserved.</p>
+  </footer>
+
+
+    <script>
+        const hamburger = document.getElementById("hamburger");
+        const navLinks = document.getElementById("navLinks");
+        
+        hamburger.addEventListener("click", () => {
+            navLinks.classList.toggle("active");
+        });
+    </script>
+</body>
+
+</html>

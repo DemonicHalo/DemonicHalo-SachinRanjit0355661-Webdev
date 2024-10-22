@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Health Help</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- header -->
+    <div class="header">
+        <div class="main-nav">
+            <div class="logo">
+               <a href="index.html"> <img src="assets/img/logo1.png" alt="Mental Health Help"></a>
+            </div>
+            <nav class="nav-links" id="navLinks">
+                <a href="MentalHealth.html">Mental Health</a>
+                <a href="Health&Wellness.html">Health & Wellness</a>
+                <a href="Children&Family.html">Children & Family</a>
+                <a href="Relationships.html">Relationships</a>
+                <a href="AgingWell.html">Aging Well</a>
+                <a href="Meditation.html">Meditation</a>
+                <a href="Quiz.html">Quiz</a>
+                <a href="HelpMe.html">Help Me!</a>
+            </nav>
+            <div class="search-container">
+                <input type="text" placeholder="Search..." class="search-bar" id="searchBar">
+                
+            </div>
+            <div class="hamburger" id="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- dis-section -->
+    <div class="container">
+        <div class="dis-section">
+            <div class="discenter">
+                <div class="dis-info">
+                  <div>
+                    <h1>Health And Wellness</h1>
+                    <h2>How can we help you?</h2>
+                    <!-- New button grid layout -->
+                    <div class="mental-health-buttons">
+                        <a href="#" class="button">Exercise  & Fitness</a>
+                        <a href="#" class="button">Nutrition</a>
+                        <a href="#" class="button">Sleep</a>
+                        <a href="#" class="button">Stress </a>
+                        <a href="#" class="button">Happiness & well-being</a>
+                        <a href="#" class="button">Pets</a>
+                        <a href="#" class="button">Work & Career</a>
+                        <a href="#" class="button">Weight Management</a>
+                        <a href="#" class="button"> Heart Health</a>
+                        
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+   <!-- Social Media Links -->
+   <div class="social-media">
+    <h3>Follow Us</h3>
+    <ul>
+      <li>
+        <a href="https://facebook.com/" target="_blank">
+          <img src="./assets/img/facebook.png" alt="Facebook" /> Facebook
+        </a>
+      </li>
+      <li>
+        <a href="https://twitter.com/" target="_blank">
+          <img src="./assets/img/x.png" alt="Twitter" /> Twitter
+        </a>
+      </li>
+      <li>
+        <a href="https://instagram.com/" target="_blank">
+          <img src="./assets/img/instagram.png" alt="Instagram" /> Instagram
+        </a>
+      </li>
+    </ul>
+  </div>
+
+</section>
+
+  <footer>
+      <p>© 2024 Mental Health Help. All rights reserved.</p>
+  </footer>
+
+
+    <script>
+        const hamburger = document.getElementById("hamburger");
+        const navLinks = document.getElementById("navLinks");
+        
+        hamburger.addEventListener("click", () => {
+            navLinks.classList.toggle("active");
+        });
+    </script>
+</body>
+
+</html>
